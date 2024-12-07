@@ -1,0 +1,70 @@
+/* responsive.css */
+
+/* Mobile and Tablet Adjustments */
+@media (max-width: 992px) {
+    .nav-links ul {
+        display:none;
+    }
+
+    .nav-toggle {
+        display:flex;
+    }
+
+    .mobile-menu {
+        display:none;
+    }
+
+    /* Adjust hero title */
+    .hero-title {
+        font-size:2.5em;
+    }
+
+    .services-grid {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .highlight-container {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .info-layout {
+        flex-direction:column;
+    }
+
+    .partner-logos {
+        flex-direction:column;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size:2em;
+    }
+
+    .page-title {
+        font-size:2em;
+    }
+
+    .section-heading {
+        font-size:1.8em;
+    }
+
+    .footer-content {
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .footer-nav-col, .footer-social-col {
+        margin:20px 0;
+    }
+
+    .content-container h2 {
+        font-size:1.6em;
+    }
+
+    .content-container p, .section-paragraph {
+        font-size:1em;
+    }
+}
